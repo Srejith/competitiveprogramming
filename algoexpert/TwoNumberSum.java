@@ -1,16 +1,14 @@
 import java.util.HashMap;
 
+/**
+ * Difficulty - Easy
+ * Input = Array of integers and targetSum
+ * Output = Return an array of two numbers that are present in the array whose sum is equal to the targetSum     *
+ */
+
+
 public class TwoNumberSum {
 
-    /**
-     * Input = Array of integers and targetSum
-     * Output = Return an array of two numbers that are present in the array whose sum is equal to the targetSum
-     * @param args
-     */
-
-    public static void main(String args[]) {
-
-    }
     public static int[] twoNumberSum(int[] array, int targetSum) {
         // Write your code here.
 

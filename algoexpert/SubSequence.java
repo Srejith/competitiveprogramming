@@ -1,6 +1,7 @@
 import java.util.List;
 
 /**
+ * Difficulty - Easy
  * Input: Array of integers and sequence
  * Output: Boolean. True is the sequence is present in the array as sub-sequence in the same order but not necessarily adjacent.
  * False otherwise.
