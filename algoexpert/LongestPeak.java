@@ -1,4 +1,6 @@
 /**
+ *
+ * Difficult - Medium
  * Function that returns the longest peak in an array
  *
  * A peak is defined as adjacent integers in the array that are strictly increasing until they reach a tip after which it is strictly decreasing. 3 integers needed
@@ -25,6 +27,8 @@ public class LongestPeak {
         int resultPeak = 0;
         int currentPeak = 0;
         int direction = 0; // 0 - ascending; 1 - descending
+
+
         for(int i=0; i<array.length; i++) {
             System.out.println("Index: "+i+" Element: "+array[i]);
             if(direction == 0) {
